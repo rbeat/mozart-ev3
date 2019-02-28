@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="WELCOME TO MOZ@RT EV3 APP!"
+		android:textSize="24dp"/>
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="#FFF">
+
+	<ImageView
+		android:layout_width="256px"
+		android:layout_height="256px"
+		android:src="@mipmap/ic_launcher"/>
+	<ImageView
+		android:layout_width="256px"
+		android:layout_height="256px"
+		android:src="@drawable/aniere"/>
+	<ImageView
+		android:layout_width="256px"
+		android:layout_height="256px"
+		android:src="@drawable/technion"/>
+	<ImageView
+		android:layout_width="256px"
+		android:layout_height="256px"
+		android:src="@drawable/nahalal"/>
+	<ImageView
+		android:layout_width="256px"
+		android:layout_height="256px"
+		android:src="@drawable/mindstorm"/>
+</LinearLayout>
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="TextView" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="noteView" />
+
+	<TextView
+		android:id="@+id/noteView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="noteView" />
+
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+        >     	         
+	        <RadioGroup
+				android:id="@+id/opt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+	       		>
+			</RadioGroup>	
+	 </LinearLayout>
+
+	<TableLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+     	>
+		<Button
+			android:id="@+id/demo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Demo"
+			android:textSize="12pt"/>
+
+		 <Button
+			 android:id="@+id/start"
+			 android:layout_width="wrap_content"
+			 android:layout_height="wrap_content"
+			 android:text="Start sending notes"
+			 android:textSize="12pt">
+
+		 </Button>
+
+
+	 </TableLayout>
+
+	<LinearLayout
+	    		android:orientation="horizontal"
+	    		android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:gravity="center"
+        		>
+        			<Button android:id="@+id/ButtonC"
+	            		android:layout_width="wrap_content"
+	            		android:layout_height="wrap_content"
+	            		android:text="Connect"
+	        		/>
+
+		<Button android:id="@+id/ButtonQ"
+	            		android:layout_width="wrap_content"
+	            		android:layout_height="wrap_content"
+	            		android:text="Quit"
+	        		/>  		
+	</LinearLayout><LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	>
+	<Button android:id="@+id/c"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="C"
+		/>
+	<Button android:id="@+id/d"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="D"
+		/>
+
+	<Button android:id="@+id/e"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="E"
+		/>
+	<Button android:id="@+id/f"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="F"
+		/>
+	<Button android:id="@+id/g"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="G"
+		/>
+	<Button android:id="@+id/a"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="A"
+		/>
+	<Button android:id="@+id/b"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="B"
+		/>
+	<Button android:id="@+id/cs"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="C"
+		/>
+</LinearLayout>
+	<Button
+		android:id="@+id/su"
+		android:layout_width="70dp"
+		android:layout_height="wrap_content"
+		android:text="Quiet"
+		/>
+</LinearLayout>

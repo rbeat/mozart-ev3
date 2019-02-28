@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">Moz@rt EV3</string>
+
+    <string name="hello">Hello World!</string>
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving EV3 Numeric.</string>
+    <string name="title_connected_to">connected:</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="scanning">Scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="connect">Connect a device</string>
+    <string name="quit">Quit</string>
+    <string name="title_connecting">Connecting…</string>
+    <string name="author">\n(C) 2019 R.Beat, (C) 2019 Sergiy Horef</string>
+
+
+
+    <string name="pref_dark_theme_key" translatable="false">pref_dark_theme</string>
+    <string name="pref_dark_theme_title">Dark theme</string>
+    <string name="pref_tuning_key" translatable="false">pref_tuning</string>
+    <string name="pref_tuning_title">Tuning</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Tuning names -->
+    <string name="standard_tuning">Standard</string>
+    <string name="open_a_tuning">Open A</string>
+    <string name="open_g_tuning">Open G</string>
+    <string name="open_d_tuning">Open D</string>
+    <string name="drop_d_tuning">Drop D</string>
+
+    <string name="standard_tuning_val" translatable="false">Standard</string>
+    <string name="open_a_tuning_val" translatable="false">Open A</string>
+    <string name="open_g_tuning_val" translatable="false">Open G</string>
+    <string name="open_d_tuning_val" translatable="false">Open D</string>
+    <string name="drop_d_tuning_val" translatable="false">Drop D</string>
+
+    <string-array name="pref_tuning_entries">
+        <item>@string/standard_tuning</item>
+        <item>@string/open_a_tuning</item>
+        <item>@string/open_g_tuning</item>
+        <item>@string/open_d_tuning</item>
+        <item>@string/drop_d_tuning</item>
+    </string-array>
+
+    <string-array name="pref_tuning_values">
+        <item>@string/standard_tuning_val</item>
+        <item>@string/open_a_tuning_val</item>
+        <item>@string/open_g_tuning_val</item>
+        <item>@string/open_d_tuning_val</item>
+        <item>@string/drop_d_tuning_val</item>
+    </string-array>
+    <string name="permission">Permission</string>
+    <string name="permission_record_audio">The app must be able to use the microphone.</string>
+    <string name="audio_record_init_error">Could not initialize AudioRecord.</string>
+    <string name="pref_privacy_policy_title">Privacy policy</string>
+    <string name="pref_privacy_policy_key" translatable="false">pref_privacy_policy</string>
+
+
+</resources>
