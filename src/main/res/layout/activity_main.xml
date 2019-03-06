@@ -87,7 +87,7 @@
 			 android:id="@+id/start"
 			 android:layout_width="wrap_content"
 			 android:layout_height="wrap_content"
-			 android:text="Start sending notes"
+			 android:text="Start listening"
 			 android:textSize="12pt">
 
 		 </Button>
