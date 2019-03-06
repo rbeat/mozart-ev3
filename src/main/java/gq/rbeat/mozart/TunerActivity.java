@@ -608,27 +608,39 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
         if(v==d_note){
             noteView.setText("D");
             mEV3Service.EV3.sendNote("d");
+            SystemClock.sleep(200);
+            mEV3Service.EV3.sendNote("h");
         }
         if(v==e_note){
             noteView.setText("E");
             mEV3Service.EV3.sendNote("e");
+            SystemClock.sleep(200);
+            mEV3Service.EV3.sendNote("h");
         }
 
         if(v==g_note){
             noteView.setText("G");
             mEV3Service.EV3.sendNote("g");
+            SystemClock.sleep(200);
+            mEV3Service.EV3.sendNote("h");
         }
         if(v==a_note){
             noteView.setText("A");
             mEV3Service.EV3.sendNote("a");
+            SystemClock.sleep(200);
+            mEV3Service.EV3.sendNote("h");
         }
         if(v==b_note){
             noteView.setText("B");
             mEV3Service.EV3.sendNote("b");
+            SystemClock.sleep(200);
+            mEV3Service.EV3.sendNote("h");
         }
         if(v==eh_note){
             noteView.setText("E#");
             mEV3Service.EV3.sendNote("eh");
+            SystemClock.sleep(200);
+            mEV3Service.EV3.sendNote("h");
         }
         if(v==mQuitButton){
             mEV3Service.EV3.send("quit",true);
