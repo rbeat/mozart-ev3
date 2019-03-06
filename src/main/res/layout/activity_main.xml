@@ -117,47 +117,38 @@
 	android:layout_height="wrap_content"
 	android:gravity="center"
 	>
-	<Button android:id="@+id/c"
-		android:layout_width="35dp"
-		android:layout_height="wrap_content"
-		android:text="C"
-		/>
-	<Button android:id="@+id/d"
-		android:layout_width="35dp"
-		android:layout_height="wrap_content"
-		android:text="D"
-		/>
-
 	<Button android:id="@+id/e"
 		android:layout_width="35dp"
 		android:layout_height="wrap_content"
-		android:text="E"
-		/>
-	<Button android:id="@+id/f"
-		android:layout_width="35dp"
-		android:layout_height="wrap_content"
-		android:text="F"
-		/>
-	<Button android:id="@+id/g"
-		android:layout_width="35dp"
-		android:layout_height="wrap_content"
-		android:text="G"
+		android:text="e"
 		/>
 	<Button android:id="@+id/a"
 		android:layout_width="35dp"
 		android:layout_height="wrap_content"
-		android:text="A"
+		android:text="a"
+		/>
+
+	<Button android:id="@+id/d"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="d"
+		/>
+	<Button android:id="@+id/g"
+		android:layout_width="35dp"
+		android:layout_height="wrap_content"
+		android:text="g"
 		/>
 	<Button android:id="@+id/b"
 		android:layout_width="35dp"
 		android:layout_height="wrap_content"
-		android:text="B"
+		android:text="b"
 		/>
-	<Button android:id="@+id/cs"
+	<Button android:id="@+id/eh"
 		android:layout_width="35dp"
 		android:layout_height="wrap_content"
-		android:text="C"
+		android:text="e"
 		/>
+
 </LinearLayout>
 	<Button
 		android:id="@+id/su"
