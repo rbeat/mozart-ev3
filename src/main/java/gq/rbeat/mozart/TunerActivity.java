@@ -93,14 +93,12 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
     private Button btnABS;
     Button startButton;
     Button demo;
-    Button c_note;
     Button d_note;
     Button e_note;
-    Button f_note;
     Button g_note;
     Button a_note;
     Button b_note;
-    Button cs_note;
+    Button eh_note;
     Button shutup;
 
 
@@ -237,14 +235,13 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
         }*/
 
         demo.setOnClickListener(this);
-        c_note.setOnClickListener(this);
+        e_note.setOnClickListener(this);
         d_note.setOnClickListener(this);
         e_note.setOnClickListener(this);
-        f_note.setOnClickListener(this);
         g_note.setOnClickListener(this);
         a_note.setOnClickListener(this);
         b_note.setOnClickListener(this);
-        cs_note.setOnClickListener(this);
+        eh_note.setOnClickListener(this);
         shutup.setOnClickListener(this);
         mQuitButton = (Button) findViewById(R.id.ButtonQ);
         mQuitButton.setOnClickListener(this);
@@ -449,14 +446,13 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
 
         startButton = (Button) findViewById(R.id.start);
         demo = (Button) findViewById(R.id.demo);
-        c_note = (Button) findViewById(R.id.c);
+
         d_note = (Button) findViewById(R.id.d);
         e_note = (Button) findViewById(R.id.e);
-        f_note = (Button) findViewById(R.id.f);
         g_note = (Button) findViewById(R.id.g);
         a_note = (Button) findViewById(R.id.a);
         b_note = (Button) findViewById(R.id.b);
-        cs_note = (Button) findViewById(R.id.cs);
+        eh_note = (Button) findViewById(R.id.eh);
         shutup = (Button) findViewById(R.id.su);
 
         // Set up the custom title
@@ -608,10 +604,7 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
             noteView.setText("G");
         }
 
-        if(v==c_note){
-            noteView.setText("C");
-            mEV3Service.EV3.sendNote("c");
-        }
+
         if(v==d_note){
             noteView.setText("D");
             mEV3Service.EV3.sendNote("d");
@@ -620,10 +613,7 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
             noteView.setText("E");
             mEV3Service.EV3.sendNote("e");
         }
-        if(v==f_note){
-            noteView.setText("F");
-            mEV3Service.EV3.sendNote("f");
-        }
+
         if(v==g_note){
             noteView.setText("G");
             mEV3Service.EV3.sendNote("g");
@@ -636,9 +626,9 @@ public class TunerActivity extends AppCompatActivity implements View.OnClickList
             noteView.setText("B");
             mEV3Service.EV3.sendNote("b");
         }
-        if(v==cs_note){
-            noteView.setText("C");
-            mEV3Service.EV3.sendNote("cs");
+        if(v==eh_note){
+            noteView.setText("E#");
+            mEV3Service.EV3.sendNote("eh");
         }
         if(v==mQuitButton){
             mEV3Service.EV3.send("quit",true);
