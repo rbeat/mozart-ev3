@@ -80,6 +80,7 @@
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="Demo"
+            android:visibility="gone"
 			android:textSize="12pt"/>
 
 		 <Button
