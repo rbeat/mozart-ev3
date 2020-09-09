@@ -3,21 +3,29 @@
 
 App authors:
 ------------------------------------------------------------------------------------------------------------
-Rodion Grinberg <admin@rbeat.gq> - Android App, EV3 Executable
-Sergey Horef <s@horef.com> - Additional help with Android App
+Rodion Grinberg (<admin@rbeat.gq>) - Android App, EV3 Executable
+
+Sergey Horef (<s@horef.com>) - Additional help with Android App
 
 Initial project authors:
 ------------------------------------------------------------------------------------------------------------
 Viliam Vald – The leader & hardware engineer
+
 Daniella Dubok – Writer & designer
+
 Solomon Geidarov – Scientist
+
 Rodion Grinberg – Software engineer
+
 
 Project supervisors:
 ------------------------------------------------------------------------------------------------------------
 Ofer Danino
+
 Itamar Feldman
+
 Dr. Gidi Kaplan
+
 
 Final release date: 
 ------------------------------------------------------------------------------------------------------------
@@ -61,4 +69,5 @@ When the button “START LISTENING” is pressed, the application uses the phone
 Full documentation
 ------------------------------------------------------------------------------------------------------------
 Hebrew: http://bit.ly/mozart_ev3_he
+
 English: http://bit.ly/mozart_ev3_en
