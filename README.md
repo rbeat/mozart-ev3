@@ -5,7 +5,7 @@ App authors:
 ------------------------------------------------------------------------------------------------------------
 Rodion Grinberg (<admin@rbeat.gq>) - Android App, EV3 Executable
 
-Sergey Horef (<s@unzim.com) - Additional help with Android App
+Sergey Horef (<s@unzim.com>) - Additional help with Android App
 
 Initial project authors:
 ------------------------------------------------------------------------------------------------------------
